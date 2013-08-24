@@ -18,7 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/ruby/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
     vendor/htc/ruby/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-    vendor/htc/ruby/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/ruby/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/pyramid/proprietary/lib/hw/camera.default.so:obj/lib/vendor-camera.msm8660.so \
 
 PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/etc/agps_rm:system/etc/agps_rm \
